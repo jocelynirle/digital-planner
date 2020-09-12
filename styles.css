@@ -53,12 +53,14 @@ section {
 .btn {
     display: inline-block;
     text-decoration: none;
+    font-family: 'Cabin Condensed', sans-serif;
+    text-shadow: 0 0 .2em #0000008c;
     padding: 0.5em 1.25em;
-    background: blue;
+    background: #f89728;
     color: white;
     font-weight: 700;
     text-transform: uppercase;
-    font-size: 1.125em;
+    font-size: 2em;
     border-radius: .4em;
     transition:
         transform 280ms ease-in-out,
@@ -78,6 +80,12 @@ section {
     text-transform: uppercase;
 }
 
+.subtitle {
+    font-size: 1.3rem;
+    text-transform: none;
+    font-family: 'Source Serif Pro', serif;
+}
+
 .section-title {
     text-align: center;
     font-size: clamp(2.5rem, 5vw + 1rem, 4rem);
@@ -87,14 +95,17 @@ section {
 }
 
 .hero {
+    font-family: 'Cabin Condensed', sans-serif;
+    text-transform: uppercase;
     color: white;
+    text-shadow: 0 0 .2em #0000008c;
     text-align: center;
     padding: 15em 0;
     background-image:
-    url(./images/background\ image.jpg);
+    url(./images/background.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: left left;
 }
 
 .featured {
@@ -115,10 +126,37 @@ section {
 }
 .featured_details {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: black;
+    font-weight: 700;
 } 
 
 .product {
-    background: radial-gradient()
+    background: radial-gradient(#005c88, #8d2165);
+    padding: 3em;
+    border-radius: 2em;
+    margin-bottom: 3em;
+}
+
+.product_title {
+    font-size: 2.6rem;
+    text-align: center;
+    line-height: 1.1;
+    color: white;
+    text-shadow: 0 0 .2em #0000008c;
+}
+
+.instruction_title {
+    font-size: 2.6rem;
+    line-height: 1.1;
+    color: white;
+    text-shadow: 0 0 .2em #0000008c;  
+}
+
+.instruction_description {
+    color: white;
+}
+
+.download {
+    text-align: center;
 }
