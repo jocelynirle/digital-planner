@@ -173,3 +173,28 @@ a {
 .product img{
     border-radius: 1.2em;
 }
+
+.footer {
+    background: #005c88;
+}
+
+.footer h3, p {
+    color: white;
+}
+
+.footer p {
+    font-size: 1.15em;
+}
+
+.footer h3 {
+    font-size: 1.25em;
+    text-shadow: 0 0 .2em #0000008c;
+}
+ .me-image {
+    width: 50%;
+    max-width: 200px;
+    height: auto;
+    float: left;
+    padding-right: 1em;
+    border-radius: 10px;
+ }
