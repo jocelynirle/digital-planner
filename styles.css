@@ -13,7 +13,6 @@ body {
 img {
     max-width: 100%;
     height: auto;
-    display: block;
 }
 
 h1,
@@ -108,6 +107,15 @@ section {
     background-position: left left;
 }
 
+.mockup {
+    max-width: 80%;
+    height: auto;
+}
+.video {
+    width: 80%;
+    height: 80%;
+ }
+
 .featured {
     background: #E6E6E6;
 }
@@ -198,3 +206,25 @@ a {
     padding-right: 1em;
     border-radius: 10px;
  }
+
+ .video {
+    width: 80%;
+    height: 80%;
+ }
+ .video-box {
+     text-align: center;
+     background: #00121a
+ }
+
+ @media only screen and (max-width: 940px) {
+    
+        .mockup {
+            max-width: 100%;
+            height: auto;
+        }
+        .video {
+            width: 100%;
+            height: 100%;
+         }
+
+  }
